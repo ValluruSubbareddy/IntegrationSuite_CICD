@@ -1,10 +1,10 @@
 steps:
   integrationArtifactUpload:
     cpiApiServiceKeyCredentialsId: IntegServiceKeyCred
-    integrationFlowId: <MY_INTEGRATION_FLOW_ID>
-    integrationFlowName: <MY_INTEGRATION_FLOW_Name>
-    packageId: <MY_INTEGRATION_Package_ID>
-    filePath: 'artifacts/your-flow.zip'
+    integrationFlowId: IF_CICD_Demo
+    integrationFlowName: IF_CICD_Demo
+    packageId: CICD_Package_Demo
+    filePath: 'CICDPackageDemo_artifacts.zip'
   integrationArtifactDeploy:
     cpiApiServiceKeyCredentialsId: IntegServiceKeyCred
-    integrationFlowId: <flow-id>
+    integrationFlowId: IF_CICD_Demo
